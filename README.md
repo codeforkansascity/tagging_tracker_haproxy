@@ -15,4 +15,3 @@ Settings for initializing the Load Balancer for the [Tagging Tracker Services](h
 1. Run `docker build .`, and take note of the generate image id.
 
 1. Run `docker run -it -p 443:443 -v ~/.ssh/tagging_tracker/:/etc/ssl/haproxy/ <image id>`
-
